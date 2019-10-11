@@ -1,4 +1,4 @@
-OpenSearch XML for a Firefox add-on to go directly to the top DuckDuckGo search result using:
+OpenSearch XML for a [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-top-result/) to go directly to the top DuckDuckGo search result using:
 
 ```xml
 <Url type="text/html" method="post" template="https://duckduckgo.com/html/">
