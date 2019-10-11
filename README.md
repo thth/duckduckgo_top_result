@@ -5,3 +5,6 @@ OpenSearch XML for a Firefox add-on to go directly to the top DuckDuckGo search 
   <Param name="q" value="\{searchTerms}"/>
 </Url>
 ```
+
+---
+I recommend using ```q``` for the search engine keyword!
