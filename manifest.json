@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "DuckDuckGo Top Result",
+  "version": "1.0",
+
+  "description": "Search engine extension to go to the top DuckDuckGo search result",
+
+  "icons": {
+    "48": "icons/duckduckgo48.png",
+    "96": "icons/duckduckgo96.png"
+  },
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "DuckDuckGo Top",
+      "search_url": "https://duckduckgo.com/html/",
+      "search_url_post_params": "q=\\{searchTerms}",
+      "keyword": "q",
+      "encoding": "UTF-8",
+      "favicon_url": "https://duckduckgo.com/favicon.ico"
+    }
+  }
+}

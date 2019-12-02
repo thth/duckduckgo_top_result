@@ -1,10 +1,6 @@
-OpenSearch XML for a [Firefox add-on](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-top-result/) to go directly to the top DuckDuckGo search result using:
+WebExtensions search overrides Firefox add-on for going directly to the top DuckDuckGo search result using:
 
-```xml
-<Url type="text/html" method="post" template="https://duckduckgo.com/html/">
-  <Param name="q" value="\{searchTerms}"/>
-</Url>
+```json
+"search_url": "https://duckduckgo.com/html/",
+"search_url_post_params": "q=\\{searchTerms}",
 ```
-
----
-I recommend using ```q``` for the search engine keyword!
